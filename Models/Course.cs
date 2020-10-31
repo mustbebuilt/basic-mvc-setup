@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace BasicMVCDemo.Models
+namespace <YOUR-PROJECT-NAME>.Models
 {
     public class Course
 
