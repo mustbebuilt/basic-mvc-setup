@@ -28,7 +28,7 @@ namespace <YOUR-PROJECT-NAME>
             services.AddControllersWithViews();
             // SQLite Version
             //services.AddDbContext<ApplicationDbContext>(options =>
-                      options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            //          options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             // SQL Server Version
             services.AddDbContext<ApplicationDbContext>(options =>
                       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
