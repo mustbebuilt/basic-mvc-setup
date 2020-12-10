@@ -27,7 +27,7 @@ namespace <YOUR-PROJECT-NAME>.Controllers
             return View();
         }
 
-        public IActionResult ListCourses()
+        public IActionResult Courses()
         {
             List<Course> model = _context.Courses.ToList();
             return View(model);
